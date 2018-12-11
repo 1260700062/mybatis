@@ -52,15 +52,6 @@
     </dependencies>
 
     <build>
-        <!-- 此处设置了在src/main/java下解析xml,所以不可与逆向工程同时使用 -->
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
